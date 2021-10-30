@@ -1,0 +1,126 @@
+body {
+    font-family: arial, sans-serif;
+}
+.container {
+    width: 600px;
+    border: 1px solid;
+    
+}
+
+.fixed-header {
+    position:fixed;
+    box-shadow: 5px 5px 5px grey;
+    width:100%;
+    height:46px;
+}
+.header-title img {
+    position:relative;
+    top:60px;
+    border-width:15px;
+    color:grey;
+    width: 265px;
+}
+.navigation ul{
+    position:relative;
+    list-style:none;
+    margin:0;
+    padding:0;
+    margin-top:80px;
+    text-align:center;
+    width:100%;
+    height:40px;
+    font-size:20px;
+    background:blue;
+    font-family:Roboto;
+    border-radius:6px;
+    margin-left:1px;
+}
+li{
+    display:inline-block;
+    margin:auto;
+}
+
+a{
+    color: red;
+}
+
+.content {
+    float: left;
+}
+
+.footer {
+    text-align: center;
+}
+
+.content {
+    width: 600px;
+    height: 300px;
+} 
+
+.content-left {
+    width: 50%;
+    height: 100%;
+    background-color:green;
+    display: inline-block;
+    float: left;
+}
+
+.content-right {
+    width: 50%;
+    height: 100%;
+    background-color: skyblue;
+    float: right;
+}
+.content-top-item{
+    width: 200px;
+    float: left;
+}
+.navigation ul {
+    margin-block-start: 0px;
+  
+}
+.content-left {
+    float:left;
+    width: 60%;
+
+
+}
+
+
+.content-right{
+    float:left;
+    width:40%;
+}
+.fitur-img wrapper{
+    height: 350px;
+    overflow: hidden;
+    width: 100%;
+    position: relative;
+
+}
+.fitur-img{
+    height: 350px;
+    background-image: url(image/1.jpg);
+    transition: all .5s;
+    cursor: pointer;
+    width: 100%;
+    height: 100%;
+
+}
+.fitur-img:hover, .fitur-img:focus{
+    transform: scale(1.2) ;
+}
+.fitur-text{
+    height: 80px;
+    background-color: blue;
+}
+.fitur {
+    margin-bottom: 2px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.fitur-title-wrapper {
+    position: absolute;
+    bottom:0;
+
+}
